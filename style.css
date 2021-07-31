@@ -1,0 +1,89 @@
+*{
+    font-family: monospace;
+}
+.contenedor{
+    border-radius: 10px;
+    box-shadow:  20px 20px 60px #bebebe,             -20px -20px 60px #ffffff;
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 15px 10px;
+    display: inline-block;
+    margin: 20px 0;
+}
+#pokemon-sprite{
+    display: flex;
+    justify-content: center;
+}
+
+.stats{
+    background: #eee;
+    width: 255px;
+    height: 10px;
+    margin: 7px 2px 9px;
+    position: relative;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.barra{
+    position: absolute;
+    height: 10px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+#ps{
+    background: lawngreen;
+}
+#atq{
+    background: red;
+}
+#atq-esp{
+    background: crimson;
+}
+#def{
+    background: dodgerblue;
+}
+#def-esp{
+    background: cyan;
+}
+#vel{
+    background: gold;
+}
+
+@keyframes llenar{
+    0%{
+        width: 0;
+    }
+    25%{
+        width: 75px;
+    }
+    50%{
+        width: 150px;
+    }
+    75%{
+        width: 25px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: rebeccapurple;
+}
